@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f847af 0%, white 100%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;         
+    justify-content: center;
+    
+}
+
+div{
+    border: 2px solid black;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    margin: 150px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 10px 40px;
+    background-color: antiquewhite;
+        
+}
+
+.border{
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: rgb(29, 8, 8);
+    margin: 0 auto;
+    padding: 10px 20px;
+    
+}
+
+.border:hover {
+    background-color: #f847af; 
+    color: white;              
+    transition: background-color 0.3s, color 0.3s;
+}

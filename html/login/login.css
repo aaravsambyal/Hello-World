@@ -16,6 +16,7 @@ div {
     border: 2px solid black;
     width: 80%;
     max-width: 300px;
+ 
 }
 
 .login-header {
@@ -27,6 +28,8 @@ div {
     
 }
 
+
+
 #google {
     vertical-align: middle;
     width: 24px;
@@ -34,3 +37,17 @@ div {
     margin-left: 8px;
 }
 
+.border{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    margin: 10px auto;
+}
+
+.border:hover{
+    background-color: #f847af; 
+    color: white;          
+    transition: background-color 0.3s, color 0.3s;
+}

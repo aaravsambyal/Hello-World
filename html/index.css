@@ -38,9 +38,11 @@ div{
     box-shadow: 0 2px 8px rgba(211, 8, 8, 0.1);
 }
 
-#redirect{
+#link{
     margin: 0px 0px auto auto;
     width: 10%;
+    display: flex;
+    flex: left;
 }
 
 #title h2 {
@@ -93,4 +95,10 @@ li {
 p {
     margin: 0.3em 0;
     font-size: 1em;
+}
+
+.redirect:hover{
+    background-color: #f73d75; 
+    color: white;              
+    transition: background-color 0.3s, color 0.3s;
 }
