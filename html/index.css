@@ -24,7 +24,7 @@ body{
     width: 90%;
     margin: 40px auto 24px auto;
     text-align: center;
-    box-shadow: 0 4px 24px rgba(33, 150, 243, 0.15); 
+    box-shadow: 0 4px 24px rgba(170, 243, 33, 0.15); 
     letter-spacing: 1px;
 }
 
@@ -35,7 +35,12 @@ div{
     border-radius: 8px;
     width: 80%;
     max-width: 600px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(211, 8, 8, 0.1);
+}
+
+#redirect{
+    margin: 0px 0px auto auto;
+    width: 10%;
 }
 
 #title h2 {

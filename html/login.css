@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #6c21e6 0%, #fafcff 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 80%;
+    max-width: 300px;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    margin: 0 auto;
+    
+}
+
+#google {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
