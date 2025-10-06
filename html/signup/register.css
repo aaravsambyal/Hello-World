@@ -35,7 +35,7 @@ div{
 }
 
 .border:hover {
-    background-color: #f847af; 
+    background-color: #5df858; 
     color: white;              
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 1s;
 }
