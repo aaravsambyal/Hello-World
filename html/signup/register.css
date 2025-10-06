@@ -19,8 +19,13 @@ div{
     max-width: 600px;
     padding: 10px 40px;
     background-color: antiquewhite;
-        
+    
 }
+
+h2{
+    text-align: center;
+}
+
 
 .border{
     align-content: center;
