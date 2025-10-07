@@ -1,3 +1,4 @@
+/* 🌈 Body & page setup */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #6c21e6 0%, #fafcff 100%);
@@ -9,44 +10,76 @@ body {
     height: 100vh;
 }
 
+/* 📦 Container for login form */
 div {
     background: white;
     padding: 20px;
     border-radius: 8px;
     border: 2px solid black;
-    width: 80%;
-    max-width: 300px;
- 
+    width: 90%;
+    max-width: 350px;
+    box-sizing: border-box;
 }
 
+/* 🏷️ Header section with Google login */
 .login-header {
     display: flex;
     align-items: center;
     justify-content: center;
     border: 0;
-
+    margin-bottom: 15px;
 }
-
-
 
 #google {
     vertical-align: middle;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     margin-left: 8px;
 }
 
-.border{
-    width: fit-content;
+/* ✏️ Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 🔘 Login button */
+.border {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 15px;
-    margin: 10px auto;
+    margin: 10px 0;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.border:hover{
-    background-color: #fda048; 
-    color: white;          
-    transition: background-color 0.3s, color 1s;
+.border:hover {
+    background-color: #fda048;
+    color: white;
+}
+
+/* 📱 Responsive tweaks for small screens */
+@media (max-width: 350px) {
+    div {
+        padding: 15px;
+    }
+
+    input, .border {
+        font-size: 0.9em;
+    }
+
+    #google {
+        width: 28px;
+        height: 28px;
+    }
 }

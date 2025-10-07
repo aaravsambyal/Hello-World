@@ -1,46 +1,70 @@
-body{
+/* 🌈 Body & page setup */
+body {
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #f847af 0%, white 100%);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    height: 100vh;
-    display: flex;
-    align-items: center;         
-    justify-content: center;
-    
-}
-
-div{
-    border: 2px solid black;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    margin: 150px auto;
-    width: 80%;
-    max-width: 600px;
-    padding: 10px 40px;
-    background-color: antiquewhite;
-    
-}
-
-h2{
-    text-align: center;
-}
-
-
-.border{
-    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    min-height: 100vh;
+}
+
+/* 📦 Container for register form */
+div {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+
+/* 🏷️ Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ✏️ Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* 🔘 Register button */
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     color: rgb(29, 8, 8);
-    margin: 0 auto;
+    margin: 10px 0;
     padding: 10px 20px;
-    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #f0f0f0; /* optional subtle background */
 }
 
 .border:hover {
     background-color: #5df858; 
     color: white;              
-    transition: background-color 0.3s, color 1s;
+}
+
+/* 📱 Responsive tweaks */
+@media (max-width: 350px) {
+    div {
+        padding: 15px;
+    }
+
+    input, .border {
+        font-size: 0.9em;
+    }
 }

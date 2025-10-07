@@ -69,7 +69,7 @@ div:not(#title):hover {
     display: flex;
     width: fit-content;
     background: none;
-     box-shadow: none !important;
+    box-shadow: none !important;
     
 }
 
@@ -99,4 +99,33 @@ p {
     background-color: #f73d75; 
     color: white;              
     transition: background-color 0.3s, color 0.3s;
+}
+
+@media (max-width: 600px) {
+  /* Resize headings */
+  #title h2 {
+    font-size: 1.5em;
+  }
+
+  #title h4 {
+    font-size: 1em;
+  }
+
+  /* Slightly reduce padding and width */
+  div {
+    width: 90%;
+    padding: 15px;
+  }
+
+  /* Keep profile image proportional */
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Center login/signup on mobile */
+  #link {
+    justify-content: center;
+    gap: 10px;
+  }
 }
