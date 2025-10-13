@@ -20,6 +20,7 @@ h2{
     padding: 30px;
     border: 2px solid black;
     border-radius: 10px;
+    box-sizing: border-box;
     width: 90%;
     max-width: 400px;
     background-color: white;
@@ -31,6 +32,7 @@ input{
   font-size: 1.2rem;
   border: 1px solid #aaa;
   border-radius: 5px;
+  box-sizing: border-box;
   text-align: right;
   margin-bottom: 15px;
 }
@@ -42,6 +44,7 @@ ul{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0;
     margin: 0;
+    gap: 3px;
 
 }
 
@@ -66,8 +69,16 @@ input:hover{
     border-radius: 5px;
     margin: 10px;
     text-align: center;
-    background-color: green;
+    background-color: rgb(18, 189, 18);
     color: white;
+}
+
+#equalto:hover{
+    background:#06770b
+}
+
+#backspace:hover{
+    background: #af0a0a
 }
 
 #backspace{
@@ -75,6 +86,6 @@ input:hover{
     border-radius: 5px;
     margin: 10px;
     text-align: center;
-    background-color: rgb(233, 24, 24);
+    background-color: rgb(238, 30, 30);
     color: white;
 }
